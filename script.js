@@ -57,12 +57,11 @@ document.onkeydown = function (e) {
         player.left = player.left + 20
 
     }
-    else if (e.keyCode == 40 && player.top < 625) { // DOWN
-
+    else if (e.keyCode == 40 && limit()) { // DOWN
         player.top = player.top + 20
 
     }
-    else if (e.keyCode == 38 && player.top > 500) { // UP
+    else if (e.keyCode == 38 && limit()) { // UP
         player.top = player.top - 20
     }
     drawPlayer()
