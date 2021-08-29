@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+#ocean {
+    background-image: url("SeasonsChanging-1024.gif");
+    width: 900px;
+    height: 710px;
+    /* width:100%;
+    height:100%;
+    max-width:100%;
+    max-height:90vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.player {
+    width: 70px;
+    height: 75px;
+    background-image: url("myplayer.png");
+    position: absolute;
+}
+
+.enemy {
+    width: 70px;
+    height: 75px;
+    background-image: url("enemy3.png");
+    position: absolute;
+}
