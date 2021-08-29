@@ -27,3 +27,11 @@
     background-image: url("enemy3.png");
     position: absolute;
 }
+
+.missile {
+    width: 4px;
+    height: 10px;
+    position: absolute;
+    background-color: rgb(229, 255, 0);
+    border-radius: 25px;
+}
